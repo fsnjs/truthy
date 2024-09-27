@@ -1,0 +1,29 @@
+{
+    "name": "@fsnjs/truthy",
+    "version": "1.0.0",
+    "description": "Easily assert that values are NonNullable or Nullable.",
+    "main": "index.js",
+    "scripts": {
+        "publish": "cd dist && npm publish --access public",
+        "build": "npx tsc",
+        "build:watch": "npx tsc --watch"
+    },
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fsnjs/truthy.git"
+    },
+    "keywords": [
+        "tokenizer",
+        "tokenize"
+    ],
+    "author": "Alexander Porrello",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fsnjs/truthy/issues"
+    },
+    "homepage": "https://github.com/fsnjs/truthy",
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    }
+}
