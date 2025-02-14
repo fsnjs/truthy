@@ -2,7 +2,7 @@
     "name": "@fsnjs/truthy",
     "version": "1.0.0",
     "description": "Easily assert that values are NonNullable or Nullable.",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "publish": "cd dist && npm publish --access public",
         "build": "npx tsc",
